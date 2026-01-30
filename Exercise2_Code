@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<title>Personal Page</title>
+
+<body>
+    <h1>My Personal Page</h1>
+    <img width=100px height=100px src = "profile.png">
+
+    <div>
+        <a href="https://www.ucalgary.ca">University of Calgary</a>
+        <br>
+        <a href="exercise3.html">History</a>
+    </div>
+
+    <div>
+        <h2><b>My Hobbies</b></h2>
+        <ul>
+            <li>Reading</li>
+            <li>Gaming</li>
+            <li>Travelling</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2><b>Form</b></h2>
+        <label for="name">Enter your name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+        <input type="radio" id="section1" name="section" value="section1">
+        <label for="section1">Section 1</label>
+        <br>
+        <input type="radio" id="section2" name="section" value="section2">
+        <label for="section2">Section 2</label>
+    </div>
+</body>
+</html>
